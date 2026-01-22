@@ -1,0 +1,223 @@
+:root {
+  --primary: #2c5364;
+  --dark: #0f2027;
+  --light: #f4f6f8;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: var(--light);
+}
+
+/* NAV BAR */
+nav {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  padding: 14px 8%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: rgba(15, 32, 39, 0.6);
+  backdrop-filter: blur(8px);
+  z-index: 1000;
+}
+
+nav .brand {
+  color: white;
+  font-weight: bold;
+}
+
+nav a {
+  color: white;
+  margin-left: 22px;
+  text-decoration: none;
+}
+
+/* HERO */
+.hero {
+  height: 100vh;
+  background:
+    linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),
+    url('../images/hero/hero-bg.jpg');
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  padding: 0 10%;
+  color: white;
+}
+
+.hero-content {
+  max-width: 650px;
+}
+
+.hero h1 {
+  font-size: 3.2rem;
+}
+
+.hero h2 {
+  font-size: 1.4rem;
+  font-weight: 400;
+}
+
+.hero a {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 14px 32px;
+  background: white;
+  color: black;
+  border-radius: 30px;
+  text-decoration: none;
+  font-weight: bold;
+}
+/* SKILLS SECTION */
+section {
+  padding: 100px 8%;
+  background: var(--light);
+}
+
+.section-title {
+  text-align: center;
+  font-size: 2.2rem;
+  margin-bottom: 50px;
+  color: var(--dark);
+}
+
+.skills-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 24px;
+  max-width: 1100px;
+  margin: auto;
+}
+
+.skill-card {
+  background: white;
+  padding: 26px 20px;
+  border-radius: 16px;
+  text-align: center;
+  font-weight: 600;
+  box-shadow: 0 8px 18px rgba(0,0,0,0.12);
+  transition: transform 0.25s ease;
+}
+
+.skill-card:hover {
+  transform: translateY(-6px);
+}
+/* PROJECTS */
+.projects-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 30px;
+  max-width: 1100px;
+  margin: auto;
+}
+
+.project-card {
+  background: white;
+  padding: 28px;
+  border-radius: 16px;
+  box-shadow: 0 12px 28px rgba(0,0,0,0.15);
+}
+
+.project-card h4 {
+  margin-top: 0;
+  color: var(--dark);
+}
+
+.project-card a {
+  display: inline-block;
+  margin-top: 15px;
+  font-weight: 600;
+  color: var(--primary);
+  text-decoration: none;
+}/* IMAGE GALLERIES */
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 24px;
+  max-width: 1100px;
+  margin: 40px auto 0;
+}
+
+.gallery img {
+  width: 100%;
+  border-radius: 16px;
+  box-shadow: 0 8px 18px rgba(0,0,0,0.12);
+}
+/* CONTACT */
+.contact-box {
+  max-width: 600px;
+  margin: auto;
+  text-align: center;
+  background: white;
+  padding: 40px;
+  border-radius: 18px;
+  box-shadow: 0 12px 28px rgba(0,0,0,0.15);
+}
+
+.contact-box p {
+  margin-bottom: 20px;
+  font-size: 1.05rem;
+}
+
+.contact-box a {
+  color: var(--primary);
+  text-decoration: none;
+  font-weight: 600;
+}
+
+footer {
+  background: #111;
+  color: #fff;
+  text-align: center;
+  padding: 35px 20px;
+  margin-top: 80px;
+}
+
+/* CV BUTTON */
+.cv-btn {
+  margin-left: 30px;
+  padding: 10px 20px;
+  background: white;
+  color: var(--dark) !important;
+  border-radius: 20px;
+  font-weight: 700;
+  text-decoration: none;
+  transition: all 0.25s ease;
+}
+
+.cv-btn:hover {
+  background: var(--primary);
+  color: white !important;
+}.whatsapp-float {
+  position: fixed;
+  bottom: 25px;
+  right: 25px;
+  z-index: 2000;
+}
+.project-card img {
+  width: 100%;
+  border-radius: 8px;
+  margin-bottom: 15px;
+}
+
+.insight {
+  font-style: italic;
+  color: #555;
+  margin-top: 10px;
+}
+
+.project-links a {
+  margin-right: 10px;
+}
+
+html {
+  scroll-behavior: smooth;
+}

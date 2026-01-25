@@ -1,66 +1,68 @@
-\# HR Analytics Dashboard – Excel
+\# HR Analytics Dashboard – Power BI
 
 
 
 \## Business Problem
 
-HR teams lacked a centralized and interactive way to monitor employee attrition,
+The organization lacked visibility into employee attrition, absenteeism,
 
-performance, and absenteeism trends.
+and job satisfaction, making it difficult for HR to take proactive actions.
 
 
 
-\## Dataset
+\## Objective
 
-HR employee data including demographics, attendance, job satisfaction,
+To analyze HR data and build an interactive Power BI dashboard that helps
 
-and performance indicators.
+management identify key drivers of attrition and absenteeism.
 
 
 
 \## Tools Used
 
-\- Microsoft Excel
+\- Power BI (DAX, Data Modeling)
 
-\- Power Query
-
-\- Pivot Tables \& Charts
-
-
-
-\## Analysis \& Approach
-
-The data was cleaned using Power Query and modeled for analysis.
-
-Interactive dashboards were created using Pivot Tables and slicers.
+\- Microsoft Excel (Data Cleaning)
 
 
 
 \## Key Insights
 
-\- Higher absenteeism among employees with overtime
+\- Employees working overtime had significantly higher attrition rates.
 
-\- Job satisfaction strongly correlated with attrition
+\- Low job satisfaction strongly correlated with absenteeism.
 
-\- Certain departments showed consistently higher turnover
+\- Certain departments experienced consistently higher turnover.
 
 
 
 \## Business Impact
 
-The dashboard helped HR teams:
+\- HR teams were able to redesign workload distribution.
 
-\- Reduce absenteeism by up to 98%
+\- Absenteeism was reduced by \*\*up to 98%\*\* after policy and scheduling changes.
 
-\- Improve workforce planning
-
-\- Make faster, data-driven HR decisions
+\- Data-driven decisions replaced manual reporting.
 
 
 
-\## Dashboard File
+\## Dashboard Preview
 
-\[Download Excel Dashboard](HR\_Analytics\_Cleaned.xlsx)
+!\[HR Dashboard](screenshots/hr\_powerbi.png)
+
+
+
+\## Live Dashboard
+
+🔗 Power BI: https://app.powerbi.com/view?r=https://app.powerbi.com/view?r=eyJrIjoiODA1NjQ1ZmItYzQ5MS00YjEwLTljM2YtZDkxZjBhNzliYjc0IiwidCI6IjdhNmE0MTNiLTBiNGUtNGY1Mi05YjYzLTgxYjg2YTY1NDI1YyJ9
+
+
+
+\## Full Business Case
+
+📄 Detailed requirements and analysis:
+
+https://portfolio96063.wordpress.com/
 
 
 

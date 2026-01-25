@@ -1,68 +1,70 @@
-\# HR Analytics Dashboard – Power BI
+\# Sales Performance Analysis – Tableau
 
 
 
 \## Business Problem
 
-The organization lacked visibility into employee attrition, absenteeism,
+The business needed a clear way to understand sales performance across regions
 
-and job satisfaction, making it difficult for HR to take proactive actions.
+and time periods to support planning and inventory decisions.
 
 
 
-\## Objective
+\## Dataset
 
-To analyze HR data and build an interactive Power BI dashboard that helps
-
-management identify key drivers of attrition and absenteeism.
+Sales transaction data covering multiple regions and time periods.
 
 
 
 \## Tools Used
 
-\- Power BI (DAX, Data Modeling)
+\- Tableau Public
 
-\- Microsoft Excel (Data Cleaning)
+\- Excel (data preparation)
+
+
+
+\## Analysis \& Approach
+
+The data was cleaned and structured to allow trend comparison by region,
+
+month, and product category. Interactive dashboards were built to enable
+
+users to explore performance dynamically.
 
 
 
 \## Key Insights
 
-\- Employees working overtime had significantly higher attrition rates.
+\- Significant regional differences in sales performance were identified
 
-\- Low job satisfaction strongly correlated with absenteeism.
+\- Clear seasonal patterns influenced monthly sales
 
-\- Certain departments experienced consistently higher turnover.
+\- Certain regions consistently underperformed, highlighting growth opportunities
 
 
 
 \## Business Impact
 
-\- HR teams were able to redesign workload distribution.
+The dashboard enabled management to:
 
-\- Absenteeism was reduced by \*\*up to 98%\*\* after policy and scheduling changes.
+\- Improve inventory planning
 
-\- Data-driven decisions replaced manual reporting.
+\- Align sales strategies with seasonal demand
+
+\- Focus on underperforming regions for targeted interventions
 
 
 
 \## Dashboard Preview
 
-!\[HR Dashboard](screenshots/hr\_powerbi.png)
+!\[Dashboard](screenshots/tableau\_dashboard.png)
 
 
 
 \## Live Dashboard
 
-🔗 Power BI: https://app.powerbi.com/view?r=https://app.powerbi.com/view?r=eyJrIjoiODA1NjQ1ZmItYzQ5MS00YjEwLTljM2YtZDkxZjBhNzliYjc0IiwidCI6IjdhNmE0MTNiLTBiNGUtNGY1Mi05YjYzLTgxYjg2YTY1NDI1YyJ9
-
-
-
-\## Full Business Case
-
-📄 Detailed requirements and analysis:
-
-https://portfolio96063.wordpress.com/
+\[View on Tableau Public](https://public.tableau.com/)
 
 
 

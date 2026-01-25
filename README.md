@@ -1,70 +1,66 @@
-\# Sales Performance Analysis – Tableau
+\# HR Analytics Dashboard – Excel
 
 
 
 \## Business Problem
 
-The business needed a clear way to understand sales performance across regions
+HR teams lacked a centralized and interactive way to monitor employee attrition,
 
-and time periods to support planning and inventory decisions.
+performance, and absenteeism trends.
 
 
 
 \## Dataset
 
-Sales transaction data covering multiple regions and time periods.
+HR employee data including demographics, attendance, job satisfaction,
+
+and performance indicators.
 
 
 
 \## Tools Used
 
-\- Tableau Public
+\- Microsoft Excel
 
-\- Excel (data preparation)
+\- Power Query
+
+\- Pivot Tables \& Charts
 
 
 
 \## Analysis \& Approach
 
-The data was cleaned and structured to allow trend comparison by region,
+The data was cleaned using Power Query and modeled for analysis.
 
-month, and product category. Interactive dashboards were built to enable
-
-users to explore performance dynamically.
+Interactive dashboards were created using Pivot Tables and slicers.
 
 
 
 \## Key Insights
 
-\- Significant regional differences in sales performance were identified
+\- Higher absenteeism among employees with overtime
 
-\- Clear seasonal patterns influenced monthly sales
+\- Job satisfaction strongly correlated with attrition
 
-\- Certain regions consistently underperformed, highlighting growth opportunities
+\- Certain departments showed consistently higher turnover
 
 
 
 \## Business Impact
 
-The dashboard enabled management to:
+The dashboard helped HR teams:
 
-\- Improve inventory planning
+\- Reduce absenteeism by up to 98%
 
-\- Align sales strategies with seasonal demand
+\- Improve workforce planning
 
-\- Focus on underperforming regions for targeted interventions
-
-
-
-\## Dashboard Preview
-
-!\[Dashboard](screenshots/tableau\_dashboard.png)
+\- Make faster, data-driven HR decisions
 
 
 
-\## Live Dashboard
+\## Dashboard File
 
-\[View on Tableau Public](https://public.tableau.com/)
+\[Download Excel Dashboard](HR\_Analytics\_Cleaned.xlsx)
 
 
 
